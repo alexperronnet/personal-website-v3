@@ -2,7 +2,7 @@
 
 🏗️ At this time, the third iteration is under construction.
 
-This the third iteration of my personal website [alexperronnet.dev](https://alexperronnet.dev/).
+This is the third iteration of my personal website [alexperronnet.dev](https://alexperronnet.dev/).
 
 Previous version: [v1](https://github.com/alexperronnet/personal-website-v1), [v2](https://github.com/alexperronnet/personal-website-v2)
 
