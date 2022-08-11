@@ -31,7 +31,7 @@ export const GlobalStyle = createGlobalStyle`
     --fs-title: 4.8rem;
     --fs-subtitle: 2.4rem;
     --fs-body: 2rem;
-    --fs-caption: 1,4rem;
+    --fs-caption: 1.4rem;
     
     @media screen and (max-width: 768px) {
       --fs-title: 3.2rem;
@@ -66,10 +66,15 @@ export const GlobalStyle = createGlobalStyle`
     font-weight: 400;
     line-height: 1.5;
     transition: all 150ms linear;
+    height: 100vh;
   }
 
   ::selection {
     color: ${({ theme }) => theme.background};
     background: ${({ theme }) => theme.foreground};
+  }
+
+  #root {
+    height: 100%;
   }
 `
