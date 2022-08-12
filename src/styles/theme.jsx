@@ -1,11 +1,11 @@
 export const lightTheme = {
   foreground: "#000",
-  background: "#FFF",
-  highlight: "#F43F5E"
+  background: "#fff",
+  highlight: "#ec4899"
 }
 
 export const darkTheme = {
-  foreground: "#FFF",
+  foreground: "#fff",
   background: "#000",
-  highlight: "#F43F5E"
+  highlight: "#6366f1"
 }

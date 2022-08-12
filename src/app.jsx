@@ -1,7 +1,7 @@
 import styled, { ThemeProvider } from "styled-components"
 import { useThemes } from "~/hooks"
 import { GlobalStyle, lightTheme, darkTheme } from "~/styles"
-import { Header, Footer } from "~/components"
+import { Header, BlobAvatar, Footer } from "~/components"
 
 export const App = () => {
   // Theme
@@ -13,6 +13,9 @@ export const App = () => {
       <ThemeProvider theme={themeMode}>
         <GlobalStyle />
         <Header onClick={() => setTheme()} theme={theme} />
+        <Main>
+          <BlobAvatar />
+        </Main>
         <Footer />
       </ThemeProvider>
     </StyledApp>
@@ -29,3 +32,5 @@ const StyledApp = styled.div`
   margin-inline: auto;
   padding: 6.4rem 0;
 `
+
+const Main = styled.main``

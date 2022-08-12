@@ -23,9 +23,9 @@ const StyledFooter = styled.footer`
 
 const StyledHeart = styled(Heart)`
   color: ${({ theme }) => theme.highlight};
-  animation: heartBeat 500ms infinite alternate;
+  animation: beat 500ms infinite alternate;
 
-  @keyframes heartBeat {
+  @keyframes beat {
     to {
       transform: scale(1.1);
     }
