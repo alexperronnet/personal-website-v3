@@ -33,7 +33,7 @@ export const GlobalStyle = createGlobalStyle`
     --fs-body: 2rem;
     --fs-caption: 1.4rem;
     
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 1024px) {
       --fs-title: 3.2rem;
       --fs-subtitle: 1.8rem;
       --fs-body: 1.6rem;

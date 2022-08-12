@@ -19,9 +19,15 @@ const StyledBlobAvatar = styled.div`
 `
 
 const StyledBlob = styled(Blob)`
-  position: absolute;
+  width: 40rem;
+  height: 40rem;
   stroke: ${({ theme }) => theme.highlight};
   animation: rotate 100s infinite linear;
+
+  @media screen and (max-width: 1024px) {
+    width: 21rem;
+    height: 21rem;
+  }
 
   @keyframes rotate {
     to {
@@ -31,9 +37,15 @@ const StyledBlob = styled(Blob)`
 `
 
 const Img = styled.img`
-  width: 12.8rem;
-  height: 12.8rem;
+  position: absolute;
+  width: 19rem;
+  height: 19rem;
   border-radius: 100%;
   box-shadow: 0 10px 15px -5px ${({ theme }) => rgba(theme.foreground, 0.2)},
     0 5px 5px -5px ${({ theme }) => rgba(theme.foreground, 0.2)};
+
+  @media screen and (max-width: 1024px) {
+    width: 10rem;
+    height: 10rem;
+  }
 `

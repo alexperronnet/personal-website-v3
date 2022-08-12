@@ -20,4 +20,9 @@ const StyledHeader = styled.header`
 const StyledLogo = styled(Logo)`
   height: 3.6rem;
   color: ${({ theme }) => theme.highlight};
+
+  @media screen and (max-width: 1024px) {
+    width: 2.4rem;
+    height: 2.4rem;
+  }
 `
