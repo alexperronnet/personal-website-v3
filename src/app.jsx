@@ -38,11 +38,9 @@ const StyledApp = styled.div`
   max-width: 102.4rem;
   width: calc(100% - (4.8rem * 2));
   margin-inline: auto;
-  padding: 4.8rem 0;
 
   @media screen and (max-width: 1024px) {
     width: calc(100% - (2.4rem * 2));
-    padding: 2.4rem 0;
   }
 `
 

@@ -19,6 +19,11 @@ const StyledFooter = styled.footer`
   justify-content: center;
   gap: 1.6rem;
   font-size: var(--fs-caption);
+  padding-bottom: 4.8rem;
+
+  @media screen and (max-width: 1024px) {
+    padding-bottom: 2.4rem;
+  }
 `
 
 const StyledHeart = styled(Heart)`

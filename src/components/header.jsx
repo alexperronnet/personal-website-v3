@@ -15,6 +15,11 @@ const StyledHeader = styled.header`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-top: 4.8rem;
+
+  @media screen and (max-width: 1024px) {
+    padding-top: 2.4rem;
+  }
 `
 
 const StyledLogo = styled(Logo)`
