@@ -19,6 +19,6 @@ const StyledThemeToggle = styled.button`
   transition: opacity 150ms linear;
 
   &:hover {
-    opacity: 0.7;
+    color: ${({ theme }) => theme.highlight};
   }
 `
