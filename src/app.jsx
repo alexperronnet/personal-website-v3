@@ -61,11 +61,23 @@ const Infos = styled.section`
   display: flex;
   flex-direction: column;
   gap: 3.2rem;
+  animation: appearInfo 750ms 250ms both;
 
   @media screen and (max-width: 1024px) {
     max-width: 100%;
     align-items: center;
     text-align: center;
+  }
+
+  @keyframes appearInfo {
+    0% {
+      transform: translateX(50%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
   }
 `
 

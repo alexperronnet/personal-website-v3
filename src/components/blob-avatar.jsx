@@ -16,6 +16,18 @@ const StyledBlobAvatar = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  animation: appearBlob 750ms 250ms both;
+
+  @keyframes appearBlob {
+    0% {
+      transform: translateX(-50%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
 `
 
 const StyledBlob = styled(Blob)`
